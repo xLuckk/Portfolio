@@ -1,0 +1,315 @@
+@import url("//fonts.googleapis.com/css?family=Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #222222;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: #1C1C1C;
+}
+
+header .container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 10px 3px black;
+}
+
+header .avatar-div {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 5px rgb(33, 33, 33);
+}
+
+header nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+header nav ul li a {
+    color: rgba(255, 255, 255, 0.807);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    padding-bottom: 20px;
+}
+
+header nav ul li a:hover {
+    color: rgba(176, 176, 176, 0.741);
+}
+
+#home img {
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+}
+
+#home .container h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 2em;
+}
+
+#home .container p {
+    color: rgba(236, 232, 255, 0.686);
+    font-size: 1em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#home .container {
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    background-color: #000000ca;
+}
+
+#skills .container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: black 0 0 2px;
+    padding-bottom: 20px;
+}
+
+#skills .container .card-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#skills .container .cards {
+    margin: 0 100px;
+}
+
+#skills .container .cards h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.885);
+    font-weight: bold;
+}
+
+#skills .container .cards .skill-card {
+    width: 135px;
+    height: 130px;
+    text-align: center;
+    background-color: #323335cc;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 3px 5px 3px rgb(44, 43, 43);
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.873);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: black 0 0 5px;
+}
+
+#skills .container .cards .skill-card p {
+    margin-top: 75%;
+}
+
+#projects .container {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+
+#projects .container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#projects .container .project-card {
+    width: 500px;
+    margin-top: 40px;
+    background-color: #323335;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+#projects .container .project-card .favicon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#projects .container .project-card h3 {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+#projects .container .project-card hr {
+    width: 400px;
+    margin: 0 auto 10px auto;
+    border-color: rgba(0, 0, 0, 0.815);
+}
+
+#projects .container .project-card p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.762);
+}
+
+#projects .container .project-card .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+
+#projects .container .project-card .project-card-btn {
+    padding: 5px 20px;
+    border: 3px solid black;
+    box-shadow: 0 0 3px 2px black;
+    color: rgba(255, 255, 255, 0.84);
+    font-size: 0.9em;
+    font-weight: normal;
+    text-shadow: black 0 0 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 122, 252, 0.681);
+}
+
+#projects .container .project-card .project-card-btn:hover {
+    background-color: rgba(6, 64, 126, 0.681);
+}
+
+#projects .container .project-card .img {
+    width: 120px;
+    height: 100px;
+    margin: 20px 0 20px 20px;
+    border: 3px solid black;
+    box-shadow: 0 2px 4px 2px black;
+    border-radius: 20px;
+    background-image: url("imgs/nodisponible.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGENES */
+
+.html {
+    background-image: url("imgs/html5.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.css {
+    background-image: url("imgs/css3.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.js {
+    background-image: url("imgs/javascript.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.bootstrap {
+    background-image: url("imgs/bootstrap5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.nodejs {
+    background-image: url("imgs/nodejs.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.discordjs {
+    background-image: url("imgs/discordjs.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.mongodb {
+    background-image: url("imgs/mongodb.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.apis {
+    background-image: url("imgs/api.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.photoshop {
+    background-image: url("imgs/photoshop.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.canva {
+    background-image: url("imgs/canva.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.vsc {
+    background-image: url("imgs/visualstudiocode.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+.bitvise {
+    background-image: url("imgs/bitvisevps.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf") format("ttf");
+}
